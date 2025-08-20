@@ -2,6 +2,17 @@
 
 [![PHP CI](https://github.com/behindthep/test-assignment-1/actions/workflows/workflow.yml/badge.svg)](https://github.com/behindthep/test-assignment-1/actions/workflows/workflow.yml)
 
+Задание:
+Необходимо получить все данные по описанным эндпоинтам и сохранить в БД MySQL.
+
+Тестовое API для получения данных:
+https://github.com//cy322666/wb-api/blob/master/README.md
+
+Postman Коллекция с примерами запросов к API:
+https://www.postman.com/cy322666/app-api-test/overview
+
+---
+
 ## Доступы к базе:
 
 Хостинг SpaceWeb (https://cp.sweb.ru)
