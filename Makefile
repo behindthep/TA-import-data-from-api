@@ -11,7 +11,6 @@ start:
 setup:
 	composer install
 	cp -n .env.example .env
-	php artisan key:gen --ansi
 
 migrate:
 	php artisan migrate
