@@ -61,6 +61,8 @@ class ImportApiDataJob implements ShouldQueue
                 // Запускаем следующий джоб с page+1
                 self::dispatch($this->endpoint, $this->dateFrom, $this->dateTo, $this->page + 1);
             }
+
+            Log::info('Done');
         } catch (\Exception $e) {
             Log::error("Import job failed for {$this->endpoint} page {$this->page}: " . $e->getMessage());
         }

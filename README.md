@@ -1,4 +1,6 @@
-# Тестовое задание на позицию Junior PHP разработчик.
+# Тестовое задание на позицию Junior PHP разработчик
+
+[![PHP CI](https://github.com/behindthep/test-assignment-1/actions/workflows/workflow.yml/badge.svg)](https://github.com/behindthep/test-assignment-1/actions/workflows/workflow.yml)
 
 ## Доступы к базе:
 
