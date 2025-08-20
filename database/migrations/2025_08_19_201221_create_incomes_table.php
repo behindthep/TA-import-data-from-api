@@ -12,9 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('incomes', function (Blueprint $table) {
-            $table->id();
             $table->bigInteger('income_id');
-            $table->string('number');
+            $table->string('number')->default('""');
             $table->date('date');
             $table->date('last_change_date');
             $table->string('supplier_article');
@@ -25,7 +24,6 @@ return new class extends Migration
             $table->date('date_close');
             $table->string('warehouse_name');
             $table->bigInteger('nm_id');
-            $table->timestamps();
         });
     }
 
