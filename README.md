@@ -3,7 +3,7 @@
 [![PHP CI](https://github.com/behindthep/test-assignment-1/actions/workflows/workflow.yml/badge.svg)](https://github.com/behindthep/test-assignment-1/actions/workflows/workflow.yml)
 
 ## Задание:
-Необходимо получить все данные по описанным эндпоинтам и сохранить в БД MySQL, которую развернуть на бесплатном хостинге (например, SpaceWeb (https://cp.sweb.ru)).
+Необходимо получить все данные по описанным эндпоинтам и сохранить в БД MySQL, которую развернуть на бесплатном хостинге (например, SpaceWeb).
 
 **Тестовое API** для получения данных: https://github.com//cy322666/wb-api/blob/master/README.md
 
