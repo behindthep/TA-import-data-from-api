@@ -2,35 +2,12 @@
 
 [![PHP CI](https://github.com/behindthep/test-assignment-1/actions/workflows/workflow.yml/badge.svg)](https://github.com/behindthep/test-assignment-1/actions/workflows/workflow.yml)
 
-Задание:
-Необходимо получить все данные по описанным эндпоинтам и сохранить в БД MySQL.
-
-Тестовое API для получения данных:
-https://github.com//cy322666/wb-api/blob/master/README.md
-
-Postman Коллекция с примерами запросов к API:
-https://www.postman.com/cy322666/app-api-test/overview
+## Задание:
+Необходимо получить все данные по описанным эндпоинтам и сохранить в БД MySQL, которую развернуть на бесплатном хостинге (например, SpaceWeb (https://cp.sweb.ru)).
+**Тестовое API** для получения данных: https://github.com//cy322666/wb-api/blob/master/README.md
+**Postman Коллекция** с примерами запросов к API: https://www.postman.com/cy322666/app-api-test/overview
 
 ---
-
-## Доступы к базе:
-
-Хостинг SpaceWeb (https://cp.sweb.ru)
-
-- DB_HOST=FVH2.spaceweb.ru
-- DB_PORT=3308
-- DB_DATABASE=alexkolvah
-- DB_USERNAME=alexkolvah
-- DB_PASSWORD=VQNHkJDMLQXS23K_
-
-## Названия таблиц:
-- stocks
-- incomes
-- sales
-- orders
-
-
-## Шаги выполнения
 
 ### Подготовка окружения
 
